@@ -39,14 +39,14 @@ const quizData = [
       d: "28",
       correct: "c",
   },{
-    question: "V kterém státu se mluví anglickým jazykem?",
+    question: "V kterém státě se mluví anglickým jazykem?",
     a: "Kanada",
     b: "Německo",
     c: "Japonsko",
     d: "Slovensko",
     correct: "a",
   },{
-    question: "Kde je Socha slobody?",
+    question: "Kde je Socha svobody?",
     a: "v Americe",
     b: "v Ázii",
     c: "v Africe",
@@ -74,7 +74,7 @@ const quizData = [
     d: "apple",
     correct: "d",
   },{
-    question: "Jak se německy řekne čarodějnice?",
+    question: "Jak se německy řekne čarodejnice?",
     a: "ježibaba",
     b: "witch",
     c: "die Hexe",
@@ -88,7 +88,7 @@ const quizData = [
     d: "20:00",
     correct: "c",
   },{
-    question: "Kolik hodin je o polnoci?",
+    question: "Kolik hodin je o půlnoci?",
     a: "05:00",
     b: "24:00",
     c: "12:00",
@@ -102,7 +102,7 @@ const quizData = [
     d: "Londýn",
     correct: "c",
   },{
-    question: "Kto chtěl sníst Honzíka a Mařenku?",
+    question: "Kdo chtěl sníst Honzíka a Mařenku?",
     a: "vlk",
     b: "myslivec",
     c: "štístko",
@@ -144,7 +144,7 @@ const quizData = [
     d: "Bratislava",
     correct: "c",
   },{
-    question: "Ve ktorém měsíci jsou Vánoce?",
+    question: "Ve kterém měsíci jsou Vánoce?",
     a: "v lednu",
     b: "v únoru",
     c: "v září",
@@ -176,7 +176,7 @@ const quizData = [
     a: "plícemi",
     b: "srdcem",
     c: "rukami",
-    d: "vlasami",
+    d: "vlasy",
     correct: "a",
   },{
     question: "Čím zapisujeme hudbu?",
@@ -193,14 +193,14 @@ const quizData = [
     d: "XZ",
     correct: "a",
   },{
-    question: "Jaká vysoká teplota je horúčka?",
+    question: "Jaká vysoká teplota je horečka?",
     a: "0°C",
     b: "38°C",
     c: "100°C",
     d: "-100°C",
     correct: "b",
   },{
-    question: "Kolik hodin je na oběd?",
+    question: "Kolik hodin je v poledne?",
     a: "12:00",
     b: "08:00",
     c: "18:00",
@@ -210,7 +210,7 @@ const quizData = [
     question: "Jak říkáme sestře mámy nebo táty?",
     a: "ježibaba",
     b: "děda",
-    c: "princezná",
+    c: "princezna",
     d: "teta",
     correct: "d",
   },{
@@ -251,19 +251,19 @@ const quizData = [
   },{
     question: "Kde je ostrov Madagaskar?",
     a: "v okolí Austrálie",
-    b: "při Africe",
+    b: "u Afriky",
     c: "na jižním pólu",
     d: "vedle Grónska",
     correct: "b",
   },{
     question: "Jakým jazykem mluví Rakušané?",
     a: "slovenským",
-    b: "rakouzským",
+    b: "rakouským",
     c: "německým",
     d: "italským",
     correct: "c",
   },{
-    question: "Kto je slovenský minister financí?",
+    question: "Kdo je slovenský ministr financí?",
     a: "Alžbeta II.",
     b: "Václav Havel",
     c: "Božena Němcová",
@@ -277,7 +277,7 @@ const quizData = [
     d: "zlatá",
     correct: "c",
   },{
-    question: "Vyber jenom pární čísla:",
+    question: "Vyber jenom sudá čísla:",
     a: "2,4,5",
     b: "3,4,5",
     c: "2,7,9",
@@ -380,8 +380,8 @@ const quizData = [
                     <label for="d" id="d_text">${question.d}</label>
                   </li>
                   <li>
-                  <h4>Vybral jsi: ${question[quizData[i].correct]}</h4>
-                  <h4>Správná odpověď: ${question[answers[i]]}</h4>
+                  <h4>Správná odpověď: ${question[quizData[i].correct]}</h4>
+                <h4>Vybral jsi: ${question[answers[i]]}</h4>
   
                 
                   </li>
